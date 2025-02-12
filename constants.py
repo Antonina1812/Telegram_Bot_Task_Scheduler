@@ -1,0 +1,11 @@
+MONGO_HOST = "localhost"
+MONGO_PORT = 27017
+MONGO_DB = "tasks"
+
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+
+TELEGRAM_TOKEN = "7553210359:AAEf9IzCvarWhIKMhAJ1Hwy60yhh9nbixGE"
